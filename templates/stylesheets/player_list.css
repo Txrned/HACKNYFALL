@@ -1,0 +1,88 @@
+.main
+{
+  overflow: hidden;
+  background-color: #3f0000;
+  position:sticky;
+  animation: fadein 1s;
+}
+
+body
+{
+  margin: 0;
+  padding: 0;
+  background: url("https://mentalhealthsupportnetwork.org/wp-content/uploads/2015/04/Rough-Cloth-Grey-Seamless-Pattern-For-Website-Background.jpg");
+  opacity: .9;
+}
+
+header
+{
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  color: Grey;
+  font-size: 300%;
+}
+
+#header
+{
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  color: white;
+  font-size: 200%;
+}
+.grid
+{
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  background-color: white;
+  box-shadow: 3px 3px 3px -3px lightgrey;
+  box-shadow: 1px 1px 3px 3px lightgrey;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-right: 20%;
+  margin-left: 20%;
+  margin-top: 5%;
+  border-top: solid red;
+}
+
+.footer
+{
+  background: url("https://i.giphy.com/media/3ohhwoER829Q2hWwx2/giphy.webp");
+}
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@keyframes textImage {
+  from {top: -200px;}
+  to {top: 0px;}
+}
