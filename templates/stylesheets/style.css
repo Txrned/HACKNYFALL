@@ -45,3 +45,32 @@ body {
 		opacity:1;
 	}
 }
+
+#splitbutton {
+	color: #fff200;
+	padding: 15px 32px;
+	font-size: 100%;
+	cursor: pointer;
+	display: inline-block;
+}
+
+#stealbutton {
+	color: #878226;
+	padding: 15px 32px
+	font-size: 100%
+	cursor: pointer;
+	display: inline-block;
+}
+
+#playernamesheader {
+	height: 50px;
+	text-align: center;
+	border: 1px solid;
+}
+
+#resultsdata {
+	padding: 15px;
+	text-align: left;
+	border: 1px solid;
+}
+	
