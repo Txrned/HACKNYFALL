@@ -1,0 +1,46 @@
+body
+{
+  margin: 0;
+  padding: 0;
+  background: url("https://mentalhealthsupportnetwork.org/wp-content/uploads/2015/04/Rough-Cloth-Grey-Seamless-Pattern-For-Website-Background.jpg");
+  opacity: .9;
+}
+
+.main
+{
+  overflow: hidden;
+  background-color: #3f0000;
+  position:sticky;
+  animation: fadein 1s;
+}
+
+#header
+{
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  color: white;
+  font-size: 200%;
+}
+
+.info
+{
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  background-color: white;
+  box-shadow: 3px 3px 3px -3px lightgrey;
+  box-shadow: 1px 1px 3px 3px lightgrey;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-right: 20%;
+  margin-left: 20%;
+  margin-top: 5%;
+  border-top: solid red;
+}
+
+.form
+{
+  padding-left: 22%;
+  font-family: "Roboto", sans-serif;
+  font-size: 150%;
+}
